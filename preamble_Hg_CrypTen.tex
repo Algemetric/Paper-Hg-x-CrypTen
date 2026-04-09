@@ -1,0 +1,127 @@
+% \usepackage{amsfonts, amsmath, amssymb, amsfonts, mathtools}
+% \usepackage[english]{babel}
+% \usepackage{orcidlink}
+% \usepackage{graphicx}
+% \usepackage{comment}
+% \usepackage{slashed}
+% %\usepackage[table]{xcolor}
+% \usepackage[figurename=Figure]{caption} 
+% \usepackage{xcolor}
+% \usepackage{}
+% \usepackage{cleveref, hyperref}
+% \usepackage{cite}
+% \usepackage{array}
+% \usepackage{texlive-fonts-extra}
+% \newcolumntype{?}{!{\vrule width 1pt}}
+
+% \usepackage{booktabs}
+% %\usepackage{inputenc}
+% \usepackage{underscore}
+% \usepackage{enumerate}
+% \usepackage{booktabs} % for table
+% \usepackage{multirow} % for table
+% \usepackage{floatrow}
+% \floatsetup[table]{capposition=top}
+% \floatsetup[figure]{capposition=top}
+% \usepackage{subcaption} %for stacking table
+% %\usepackage{url}
+% %\usepackage[strings]{underscore}
+
+% \usepackage{verbatim}
+% \usepackage{framed}
+
+% Used for displaying a sample figure. If possible, figure files should
+% be included in EPS format.,
+%,
+% If you use the hyperref package, please uncomment the following line
+% to display URLs in blue roman font according to Springer's eBook style:
+% \renewcommand\UrlFont{\color{blue}\rmfamily}
+
+\documentclass[runningheads]{llncs}
+\usepackage{amsmath,amssymb,amsfonts,mathtools,graphicx,tikz}
+\usepackage{verbatim}
+\usepackage{framed}
+\usepackage{hyperref}
+\usepackage{orcidlink}
+\usepackage{cleveref}
+\everymath{\displaystyle}
+%%%%%%%%%%%%
+%%%%%%%%%%%%,
+%%%%%%%%%%%%
+%%%%%%%%%%%%
+
+% \everymath{\displaystyle}
+
+
+% \renewcommand\UrlFont{\color{blue}\rmfamily}
+\newcommand{\Zg}{\mathbb{Z}_g}
+\newcommand{\Zp}{\mathbb{Z}_p}
+\newcommand{\share}{\mathsf{Share}}
+\newcommand{\recon}{\mathsf{Recon}}
+\newcommand{\reveal}{\mathsf{Reveal}}
+\newcommand{\out}{\mathsf{Output}}
+\newcommand{\Add}{\mathsf{Add}}
+\newcommand{\subtr}{\mathsf{Subtr}}
+\newcommand{\mult}{\mathsf{Mult}}
+\newcommand{\scalarmult}{\mathsf{ScalarMult}}
+\newcommand{\Div}{\mathsf{Div}}
+\newcommand{\randint}{\mathsf{RandInt}}
+\newcommand{\randfrac}{\mathsf{RandFrac}}
+\newcommand{\inv}{\mathsf{Inv}}
+\newcommand{\srandint}{\mathsf{SmallRandInt}}
+\newcommand{\trunc}{\mathsf{PrTrunc}}
+\newcommand{\encd}{\mathsf{enc}}
+\newcommand{\decd}{\mathsf{dec}}
+\newcommand{\R}{\mathsf{Hg}}
+\newcommand{\pr}{\textnormal{Pr}}
+\newcommand{\K}{k_\text{trunc}}
+\newcommand{\polys}{\mathcal{P}_{d,t}}
+\newcommand{\C}{\mathcal{C}}
+\newcommand{\mercury}{\textsf{Mercury }}
+\newcommand{\range}{\mathsf{range}}
+\newcommand{\poly}{\mathsf{p}}
+\newcommand{\bit}{\mathfrak{b}}
+\newcommand{\modtwo}{\mathsf{Mod2}}
+\newcommand{\fuzzy}{\mathsf{FuzzyRound}}
+\newcommand{\randbit}{\mathsf{RandBit}}
+\newcommand{\eq}{\mathsf{EQ}}
+\newcommand{\lt}{\mathsf{LT}}
+\newcommand{\Mod}{\mathsf{Mod}}
+\newcommand{\localmult}{\mathsf{LocalMult}}
+\newcommand{\true}{\mathfrak{true}}
+\newcommand{\false}{\mathfrak{false}}
+\newcommand{\enc}{\mathsf{Enc}}
+
+
+\newenvironment{proofsketch}{%
+  \renewcommand{\proofname}{Sketch of proof}\proof}{\endproof}
+\newtheorem{assumption}{Assumption}
+
+%%%%%%%%%%%%
+%%%%%%%%%%%%
+%%%%%%%%%%%%
+%%%%%%%%%%%%
+
+
+
+\newcommand{\mnote}[1]{{\color{blue} [Memo: #1]}}
+\newcommand{\rnote}[1]{{\color{red} [Ricardo: #1]}}
+\newcommand{\lnote}[1]{{\color{orange} [Luke: #1]}}
+\newcommand{\gnote}[1]{{\color{purple} [Gaetan: #1]}}
+
+% \DeclareMathOperator{\lcm}{lcm}
+
+\newcommand{\s}{\mathcal{S}}
+\newcommand{\G}{\mathcal{G}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\D}{\mathcal{D}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+
+\newcommand{\farey}{\mathcal{F}}
+
+
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.5}
+% \captionsetup[table]{skip=10pt}
